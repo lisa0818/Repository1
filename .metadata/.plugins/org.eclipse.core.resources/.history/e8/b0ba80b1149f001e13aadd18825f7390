@@ -1,0 +1,23 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class addClassTest {
+
+	@Test
+	void test() {
+		//fail("Not yet implemented");
+	}
+	
+	void testAdd()
+	{
+		addClass obj = new addClass();
+		
+		int expected = 7;
+		int actual = obj.add(5,4);
+		assertEquals(expected, actual);
+	}
+	
+	
+
+}
